@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://kit.fontawesome.com/b0fc90f268.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/svg/logo.svg">
+    <title>MarketPlace</title>
+</head>
+<body>
+    
+    <div class="marketplac_container">
+        <header class="marketplace_header">
+            <a href="index.html"><img src="images/svg/logo.svg" alt="logo"></a>
+            <h3 class="header_title"><a href="products.html">MarketPlace</a></h3>
+            <div class="search_div">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <input type="search" class="search_input" placeholder="Search">
+            </div>
+            <div class="user_info">
+                <div class="user_info_txtDiv">
+                    <p class="userInfo_username"></p>
+                    <p class="userType"></p>
+                </div>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </header> 
+        <aside class="products_aside">
+            <div class="products_aside_menu">
+                <h3 class="menu_txt">Menu</h3>
+                <div class="products_aside_nav">
+                    <div class="marketplace products_nav">
+                        <i class="fa-solid fa-shop"></i>
+                        <p class="marketplace products_nav_text "><a href="products.html">Marketplace</a></p>
+                    </div>
+                    <div class="favorites products_nav">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <p class="favorites products_nav_text "><a href="favorites.html" class="Active">Favorites</a></p>
+                    </div>
+                    <div class="orders products_nav">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="orders products_nav_text"><a href="#">Orders</a></p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="products_section">
+
+        </section>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/favoriteFetch.js"></script>
+    <script src="js/storageSystem.js"></script>
+</body>
+</html>
